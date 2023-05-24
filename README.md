@@ -20,12 +20,12 @@ O Weather App é uma aplicação web simples que permite aos usuários pesquisar
 
 1. Certifique-se de ter o Node.js instalado em seu computador.
 2. Clone este repositório em seu ambiente de desenvolvimento local.
-3. Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências: *npm install
+3. Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências: *npm install*
 
 
 ## Uso
 
-1. Execute o seguinte comando para iniciar o servidor de desenvolvimento: *npm start
+1. Execute o seguinte comando para iniciar o servidor de desenvolvimento: *npm start*
 
 
 2. Abra seu navegador e acesse `http://localhost:3000` para ver a aplicação em funcionamento.
