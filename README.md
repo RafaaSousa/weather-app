@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Weather App é uma aplicação web simples que permite aos usuários pesquisar e obter informações meteorológicas sobre uma determinada cidade.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Os usuários podem digitar o nome de uma cidade na página inicial.
+- Ao clicar no botão de pesquisa, eles são redirecionados para uma página de detalhes de clima, onde podem ver a temperatura atual e as condições climáticas da cidade pesquisada.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Biblioteca JavaScript para a construção de interfaces de usuário.
+- react-router-dom: Biblioteca para o roteamento de URLs na aplicação React.
+- axios: Cliente HTTP baseado em Promises para fazer requisições à API de previsão do tempo.
+- HTML/CSS: Linguagens para a estrutura e estilização da interface do usuário.
+- Git: Sistema de controle de versão para gerenciar o código-fonte do projeto.
+- GitHub: Plataforma de hospedagem de repositórios Git.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+1. Certifique-se de ter o Node.js instalado em seu computador.
+2. Clone este repositório em seu ambiente de desenvolvimento local.
+3. Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências: *npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Uso
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Execute o seguinte comando para iniciar o servidor de desenvolvimento: *npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Abra seu navegador e acesse `http://localhost:3000` para ver a aplicação em funcionamento.
 
-### `npm run eject`
+## Contribuição
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que esse exemplo seja útil para você criar o arquivo `README.md` do seu projeto Weather App. Sinta-se à vontade para personalizar e adicionar mais informações conforme necessário.
