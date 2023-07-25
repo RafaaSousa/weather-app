@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Weather from "./Weather";
+import './styles.css';
+
 
 const App = () => {
   return (
